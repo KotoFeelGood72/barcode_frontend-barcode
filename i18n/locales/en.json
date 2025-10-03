@@ -1,0 +1,227 @@
+{
+  "home": {
+    "home": "Home",
+    "store": "Store",
+    "discussion": "Discussion",
+    "faq": "FAQ",
+    "pdfs": "PDF's",
+    "eecp": "EECP",
+    "title": "Generate Official Documents in Seconds",
+    "desc": "From corporate tax returns to birth, death and diploma certificates, our AI-powered generator delivers print-ready documents in minutes.",
+    "mobile_desc": "Our generator creates perfect PDF417 barcodes that match real driver's licenses. Every detail is encoded correctly to pass any verification system. Works with US, European and international ID formats. Generate single barcodes or bulk batches in seconds.",
+    "second_title": "The leading barcode generator by Russian hackers — now available to everyone",
+    "blocks": {
+      "field_gen": "Automatic Field Generation",
+      "field_gen_desc": "Our tool smartly fills in missing numbers using local and federal guidelines, eliminating manual entry and ensuring seamless barcode creation.",
+      "ai_driven": "AI-Driven Data Processing",
+      "ai_driven_desc": "Leveraging deep learning, our AI analyzes your data to accurately estimate missing parts and generate DMV-level barcodes.",
+      "verif": "Outsmart Verification Systems",
+      "verif_desc": "Our DMV-level barcodes pass top verifiers (BCS, Veriscan, intellicheck, Sumsub) for both online and offline use."
+    },
+    "stats": {
+      "jurisdictions": "Jurisdictions",
+      "barcode_changes": "Barcode Changes",
+      "users": "Users",
+      "generations": "Generations"
+    },
+    "whatsnew": "What's New",
+    "footer": {
+      "main_sections": "Main Sections",
+      "resources": "Resources",
+      "about": "About",
+      "contact": "Contact",
+      "help": "Help",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of use"
+    }
+  },
+  "registration": {
+    "title": "Create your account",
+    "first_desc": "Sign Up Now to Create AI-Powered, 100% Passing DL Barcodes Instantly!",
+    "second_desc": "A single account created on this site will also be valid on the.",
+    "login_tg": "Login with Telegram",
+    "fullname": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "or_sign_in": "or sign in",
+    "pdf_project": "PDF_PROJECT"
+  },
+  "confirm": {
+    "title": "Check your email",
+    "desc": "Please enter the verification code we sent to your",
+    "code": "Code",
+    "reset_password": "Reset"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "desc": "Enter your email, and we’ll send a password reset code",
+    "send_code": "Send"
+  },
+  "new_password": {
+    "title": "New password"
+  },
+  "sign_in": {
+    "title": "Sign in",
+    "or_create_account": "or Create an account"
+  },
+  "sidebar": {
+    "to_home": "To Home",
+    "balance": "Balance",
+    "barcodes": "Barcodes",
+    "unlimited": "Unlimited in 140h",
+    "in": "∞ in 148h",
+    "mrz": "MRZ",
+    "other_tools": "Other Tools",
+    "referral": "Referral program",
+    "help": "Help",
+    "settings": "Settings",
+    "wallet": "Wallet and Subscription",
+    "bulk_generation": "Bulk generation",
+    "store_orders": "Store orders",
+    "need_to_generate_barcodes": "Need to generate Barcodes?",
+    "yes_i_do": "Yes, I do"
+  },
+  "settings": {
+    "title": "Settings",
+    "change_password": "Change Password",
+    "change_password_title": "Change Password",
+    "old_password": "Old password",
+    "new_password": "New password",
+    "forgot_password": "Forgot password?",
+    "change": "Change",
+    "upload_account_photo": "Upload account photo",
+    "upload_account_photo_desc": "The recommended image resolution is 1600x1600 pixels.",
+    "send": "Send",
+    "logout": "Log out",
+    "full_name": "Full name",
+    "email": "Email",
+    "password_placeholder": "********",
+    "telegram_link": "Telegram link",
+    "telegram_alt": "Telegram",
+    "uploading": "Uploading",
+    "saving": "Saving...",
+    "save_changes": "Save changes",
+    "update_success": "Settings updated successfully"
+  },
+  "wallet": {
+    "title": "Wallet and Subscription",
+    "total_balance": "Total balance",
+    "top_up": "Top up",
+    "subscription": "Subscription",
+    "left_time": "Left: {hours}h",
+    "plan": "Plan",
+    "unlimited_plan": "Unlimited for {hours} hours",
+    "barcodes": "Barcodes",
+    "add": "Add",
+    "available": "Available",
+    "barcodes_available": "{count} Barcodes (unlimited in {hours}h)",
+    "history": {
+      "title": "History",
+      "categories": {
+        "all": "All",
+        "top_ups": "Top-ups",
+        "store": "Store",
+        "purchases": "Purchases"
+      },
+      "sort_by": {
+        "title": "Sort by"
+      }
+    }
+  },
+  "settingsForm": {
+    "save_changes": "Save changes",
+    "saving": "Saving...",
+    "update_success": "Settings updated successfully"
+  },
+  "topUp": {
+    "title": "Top Up",
+    "currentBalance": "Current Balance",
+    "available": "Available",
+    "unlimitedIn": "unlimited in 140h",
+    "paymentMethods": "Payment Methods",
+    "amount": "Amount",
+    "enterAmount": "Enter amount",
+    "quickAmounts": "Quick Amounts",
+    "topUpButton": "Top Up",
+    "termsAgreement": "By clicking \"Top Up\" you agree to our",
+    "termsOfService": "Terms of Service"
+  },
+  "continue": "Continue",
+  "barcodes": {
+    "title": "Barcodes",
+    "create_new": "Create new",
+    "re_create": "Re-Create",
+    "free_adjustment": "Free Adjustment",
+    "sort_by": "Sort by",
+    "export": "Export",
+    "verif": {
+      "title": "Barcode Bypassing Verification",
+      "btn": "Run Barcode Validation",
+      "desc": "If you have a package plan, 1 barcode will be deductedIf you pay as you go, $5 will be debited from your balance"
+    },
+    "data": {
+      "title": "Data Verification",
+      "btn": "Run Data Validation",
+      "desc": "If you have a package plan, 1 barcode will be deductedIf you pay as you go, $5 will be debited from your balance"
+    },
+    "barcode": {
+      "title": "Details of Barcode",
+      "generation_date": "Generation date",
+      "country": "Country",
+      "state": "State",
+      "revision_date": "Revision date",
+      "surname": "Surname",
+      "first_name": "First name",
+      "birthday": "Birthday",
+      "month_of_expir": "Month of Exparation",
+      "passport_number": "Passport number",
+      "hair_color": "Hair color",
+      "height": "Height",
+      "real_id": "Real ID",
+      "veteran": "Veteran",
+      "donor": "Donor",
+      "di_type": "DI type",
+      "rest": "Rest.",
+      "end": "End.",
+      "issue": "Issue",
+      "exparation": "Exparation",
+      "summary": "Full Details of 128 Code"
+    }
+  },
+  "modals": {
+    "topUp": {
+      "title": "Top up",
+      "currentBalance": "Current balance"
+    },
+    "buyPackages": {
+      "title": "Buy packages",
+      "buy": "Buy"
+    },
+    "pay": {
+      "title": "Pay",
+      "transfer": "Transfer",
+      "btc_address": "BTC address",
+      "topup_with_oracle": "Top up with Oracle",
+      "share_code": "Share code",
+      "share_addy": "Share addy",
+      "cancel": "Cancel"
+    },
+    "subscription": {
+      "title": "Subscription"
+    }
+  },
+  "generating": {
+    "title": "Ai Barcode Generator",
+    "tips": "Tips for This Revision"
+  },
+  "validation": {
+    "full_name_required": "Full name is required",
+    "full_name_min_length": "Full name must be at least 2 characters",
+    "full_name_max_length": "Full name must be no more than 50 characters",
+    "email_required": "Email is required",
+    "email_invalid": "Please enter a valid email address",
+    "password_required": "Password is required",
+    "password_min_length": "Password must be at least 8 characters",
+    "telegram_link_invalid": "Please enter a valid Telegram link"
+  }
+}
