@@ -11,6 +11,20 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        "gray-dark": "#181818",
+      },
+      container: {
+        center: true,
+        padding: "1rem",
+        screens: {
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1280px",
+          "2xl": "1368px",
+        },
+      },
       fontFamily: {
         space_grotesk: ["Space Grotesk", "ui-sans-serif", "system-ui"],
         albert_sans: ["Albert Sans", "ui-sans-serif", "system-ui"],

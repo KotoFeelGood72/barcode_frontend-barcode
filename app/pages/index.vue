@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-4 relative">
-    <Header />
+    <!-- <Header /> -->
     <div class="relative">
       <BurgerMenu />
     </div>
