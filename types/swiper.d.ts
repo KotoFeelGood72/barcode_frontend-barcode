@@ -11,5 +11,6 @@ declare module 'swiper/modules' {
   export const Autoplay: any
   export const Navigation: any
   export const EffectFade: any
+  export const Thumbs: any
 }
 

@@ -29,7 +29,7 @@
       <div>
         <h2 class="mb-7 text-3xl">All products</h2>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-          <ProductsCard title="Microsoft office 360" price="100" link="/products/1" v-for="item in 10" :key="item" />
+          <ProductsCard title="Microsoft office 360" price="100" link="/stores/1" v-for="item in 10" :key="item" />
         </div>
       </div>
     </div>
