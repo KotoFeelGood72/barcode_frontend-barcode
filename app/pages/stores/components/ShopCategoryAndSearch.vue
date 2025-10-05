@@ -1,6 +1,7 @@
 <template>
-  <div class="container">  
-    <div class="max-w-[769px] w-full mx-auto flex items-stretch justify-center gap-3">
+  <div class="container flex items-center justify-start gap-[100px]">  
+    <slot />
+    <div class="max-w-[769px] w-full flex items-stretch justify-center gap-3">
       <Button text-color="dark" color="primary">
         <span>Categories</span>
         <div><CategoryIcon /></div>

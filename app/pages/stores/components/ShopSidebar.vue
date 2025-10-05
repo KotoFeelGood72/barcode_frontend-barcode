@@ -1,51 +1,51 @@
 <template>
-  <div>
-    <div>
+  <div class="max-w-[315px] flex flex-col border-r border-[#292929] pr-4">
+    <div class="flex flex-col gap-6 flex-grow">
       <div>
-      <p>Placeholder</p>
-      <ul>
+      <p class="mb-3 font-semibold">Placeholder</p>
+      <ul class="flex flex-wrap gap-x-1 gap-y-2">
         <li v-for="item in 5" :key="item">
-          <Button text-color="white" color="primary">Placeholder</Button>
+          <Button text-color="white" color="primary" class="text-xs">Placeholder</Button>
         </li>
       </ul>
       </div>
       <div>
-        <p>Placeholder</p>
+        <p class="mb-3 font-semibold">Placeholder</p>
         <ul>
-          <li v-for="item in 5" :key="item">
-            <Checkbox id="checkbox" value="checkbox">Placeholder</Checkbox>
+          <li v-for="item in 5" :key="item" class="py-2.5 border-b border-[#292929]">
+            <Checkbox id="checkbox" value="checkbox" label="Placeholder" />
           </li>
         </ul>
       </div>
       <div>
-        <p>Placeholder</p>
-        <div>
-          <div>
-            <span>From</span>
-            <Input placeholder="Placeholder" />
+        <p class="mb-3 font-semibold">Placeholder</p>
+        <div class="flex gap-2">
+          <div class="relative">
+            <span class="absolute top-1/2 -translate-y-1/2 left-3">от</span>
+            <Input placeholder="Placeholder" class=" pl-10 w-full text-sm"/>
           </div>
-          <div>
-            <span>To</span>
-            <Input placeholder="Placeholder" />
+          <div class="relative">
+            <span class="absolute top-1/2 -translate-y-1/2 left-3">до</span>
+            <Input placeholder="Placeholder" class=" pl-10 w-full text-sm"/>
           </div>
         </div>
       </div>
       <div>
-        <p>Placeholder</p>
-        <div>
-          <div>
-            <span>From</span>
-            <Input placeholder="Placeholder" />
+        <p class="mb-3 font-semibold">Placeholder</p>
+        <div class="flex gap-2">
+          <div class="relative">
+            <span class="absolute top-1/2 -translate-y-1/2 left-3">от</span>
+            <Input placeholder="Placeholder" class=" pl-10 w-full text-sm"/>
           </div>
-          <div>
-            <span>To</span>
-            <Input placeholder="Placeholder" />
+          <div class="relative">
+            <span class="absolute top-1/2 -translate-y-1/2 left-3">до</span>
+            <Input placeholder="Placeholder" class=" pl-10 w-full text-sm"/>
           </div>
         </div>
       </div>
     </div>
     <div>
-      <Button text-color="white" color="primary">Save</Button>
+      <Button text-color="dark" color="white" class="w-full">Save</Button>
     </div>
   </div>
 </template>
