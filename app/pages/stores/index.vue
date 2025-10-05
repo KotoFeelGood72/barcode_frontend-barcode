@@ -24,7 +24,7 @@
             <Button text-color="dark" color="primary" class="px-4 py-3 font-medium">Learn more</Button>
           </div>
         </SwiperSlide>
-      <div class="slider-pagination swiper-pagination absolute bottom-10 left-10 w-full h-1 z-10 flex items-center justify-start gap-2"></div>
+      <div class="slider-pagination swiper-pagination absolute md:bottom-10 bottom-6 md:left-10 left-4 w-full h-1 z-10 flex items-center justify-start gap-2"></div>
       </Swiper>
       <div>
         <h2 class="mb-7 text-3xl">All products</h2>
@@ -63,4 +63,6 @@ import { Pagination, Autoplay } from 'swiper/modules';
   opacity: 1;
   width: 71px;
 }
+
+
 </style>
