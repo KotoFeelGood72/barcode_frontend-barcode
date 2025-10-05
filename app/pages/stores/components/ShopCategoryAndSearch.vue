@@ -1,12 +1,14 @@
 <template>
-  <div>
-    <Button text-color="white" color="primary">
-      <span>Categories</span>
-      <div><CategoryIcon /></div>
-    </Button>
-    <div>
-      <div><SearchIcon /></div>
-      <Input placeholder="Search" />
+  <div class="container">  
+    <div class="max-w-[769px] w-full mx-auto flex items-stretch justify-center gap-3">
+      <Button text-color="dark" color="primary">
+        <span>Categories</span>
+        <div><CategoryIcon /></div>
+      </Button>
+      <div class="flex items-center justify-start bg-bg-secondary rounded-xl px-3.5 flex-grow">
+        <div><SearchIcon /></div>
+        <Input placeholder="Search" class="w-full flex-grow"/>
+      </div>
     </div>
   </div>
 </template>

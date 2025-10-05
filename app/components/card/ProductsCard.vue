@@ -1,11 +1,11 @@
 <template>
   <NuxtLink :to="link">
-    <div>
-      <img src="@/assets/images/products-card.png" alt="">
+    <div class="h-[257px] w-full mb-2 rounded-lg overflow-hidden">
+      <img src="@/assets/images/products-card.png" alt="" class="w-full h-full object-cover">
     </div>
     <div>
-      <span>{{ price }}</span>
-      <p>{{ title }}</p>
+      <span class="text-lg font-medium">{{ price }}</span>
+      <p class="text-xs font-medium">{{ title }}</p>
     </div>
   </NuxtLink>
 </template>

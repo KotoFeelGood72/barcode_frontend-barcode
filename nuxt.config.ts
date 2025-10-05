@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       redirectOn: "root",
     },
   },
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css", "swiper/css"],
   vite: {
     server: {
       allowedHosts: ["1bc9addd6540.ngrok-free.app"],
