@@ -5,7 +5,7 @@
       <p class="mb-3 font-semibold">Placeholder</p>
       <ul class="flex flex-wrap gap-x-1 gap-y-2">
         <li v-for="item in 5" :key="item">
-          <Button text-color="white" color="primary" class="text-xs">Placeholder</Button>
+          <Button text-color="white" color="secondary" class="text-xs">Placeholder</Button>
         </li>
       </ul>
       </div>

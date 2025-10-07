@@ -4,7 +4,11 @@
       <div>
         <ul class="flex flex-col gap-2 pt-9 pr-3 border-r border-[#292929] h-dvh">
           <li v-for="item in 5" :key="item">
-            <NuxtLink text-color="dark" color="primary" class="flex items-center gap-8 parent-link px-3 py-2.5 text-[#A6A6A6] rounded-[12px] hover:bg-primary hover:text-gray-dark transition-all" to="/">
+            <NuxtLink 
+              text-color="dark"
+              color="primary"
+              class="flex items-center gap-8 parent-link px-3 py-2.5 text-[#A6A6A6] rounded-[12px] hover:bg-primary hover:text-gray-dark transition-all"
+              :to="`/stores/${item}`">
               <div class="flex items-center gap-2">
                 <div class="flex items-center justify-center"><TempCatIcon /></div>
                 <span>Category name</span>
@@ -41,6 +45,7 @@ import TempCatIcon from '~/components/icons/TempCatIcon.vue';
 
 .parent-link.router-link-exact-active {
   background-color: var(--color-bg-primary-accent);
+  color: #000;
 }
 
 .modal:before {
