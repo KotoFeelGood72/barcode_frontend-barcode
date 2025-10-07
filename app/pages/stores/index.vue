@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-  <ShopCategoryAndSearch />
+    <ShopCategoryAndSearch center/>
     <div class="container lg:py-[60px] py-10">
       <Swiper 
         class="relative mb-14 lg:h-auto h-[500px]"
@@ -33,7 +33,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -41,6 +40,7 @@
 import Button from '~/shared/ui/Button.vue';
 import ProductsCard from '~/components/card/ProductsCard.vue';
 import ShopCategoryAndSearch from './components/ShopCategoryAndSearch.vue';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination, Autoplay } from 'swiper/modules';
 </script>

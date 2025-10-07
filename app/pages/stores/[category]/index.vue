@@ -9,7 +9,6 @@
         <ProductsCard title="Microsoft office 360" price="100" link="/stores/1" v-for="item in 10" :key="item" />
       </div>
     </div>
-
   </div>
 </template>
 

@@ -5,3 +5,10 @@
     </NuxtLayout>
   </div>
 </template>
+
+
+<style lang="css">
+body.modal-open {
+  overflow: hidden;
+}
+</style>

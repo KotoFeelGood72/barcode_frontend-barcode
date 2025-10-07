@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-9 py-[24px] flex justify-between items-center relative">
+  <div class="w-full px-9 py-[24px] flex justify-between items-center relative header">
     <NuxtLink :to="localePath('/')">
       <h1 class="text-2xl font-roboto uppercase font-bold cursor-pointer">
         Logo
