@@ -1,10 +1,10 @@
 <template>
-  <div class="page">
+  <div class="page pt-5 pb-28">
     <div class="container">
       <div class="mb-10">
         <NuxtLink :to="$localePath('/stores')" class="flex items-center gap-2 lg:mb-7 mb-6">
-          <div class="size-8 flex items-center justify-center bg-gray-dark rounded-full"><BackIcon /></div>
-          <span class="lg:text-xl">Basket</span>
+          <div class="size-7 flex items-center justify-center bg-gray-dark rounded-full"><BackIcon /></div>
+          <span class="lg:text-[32px] lg:leading-[110%]">Basket</span>
         </NuxtLink>
       </div>
       <div class="flex gap-4">
