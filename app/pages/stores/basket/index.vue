@@ -21,8 +21,8 @@
           <div class="bg-gray-dark p-5 rounded-[20px]">
             <Checkbox id="checkbox" value="checkbox" label="Select All" circle class="py-3 mb-3"/>
             <ul>
-              <li v-for="item in 5" :key="item" class="border-b border-[#292929] py-2.5">
-                <BasketCard />
+              <li v-for="item in basketItems" :key="item.id" class="border-b border-[#292929] py-2.5">
+                <BasketCard :item="item" :is-selected="false" />
               </li>
             </ul>
           </div>
@@ -57,6 +57,12 @@ import BackIcon from '~/components/icons/BackIcon.vue';
 import Checkbox from '~/components/ui/Checkbox.vue';
 import BasketCard from '~/components/card/BasketCard.vue';
 import Button from '~/shared/ui/Button.vue';
+
+const basketItems = ref([
+  { id: 1, name: 'Apple card', price: 1000, quantity: 1, image: 'https://via.placeholder.com/150' },
+  { id: 2, name: 'Apple card', price: 1000, quantity: 1, image: 'https://via.placeholder.com/150' },
+  { id: 3, name: 'Apple card', price: 1000, quantity: 1, image: 'https://via.placeholder.com/150' },
+]);
 </script>
 
 <style scoped>

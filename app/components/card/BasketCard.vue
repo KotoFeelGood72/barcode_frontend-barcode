@@ -19,7 +19,6 @@
 </template>
 
 <script setup lang="ts">
-import CheckboxIcon from '~/components/icons/CheckboxIcon.vue';
 import Checkbox from '~/components/ui/Checkbox.vue';
 import MinusIcon from '~/components/icons/MinusIcon.vue';
 import PlusIcon from '~/components/icons/PlusIcon.vue';
