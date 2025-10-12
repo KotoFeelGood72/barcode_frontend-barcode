@@ -9,6 +9,9 @@ export default {
     "./plugins/**/*.js",
     "./nuxt.config.{js,ts}",
   ],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
   theme: {
     extend: {
       colors: {

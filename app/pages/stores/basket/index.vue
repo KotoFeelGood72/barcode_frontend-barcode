@@ -7,15 +7,44 @@
           <span class="lg:text-xl">Basket</span>
         </NuxtLink>
       </div>
-      <div>
-        <div class="flex justify-between items-center bg-gray-dark px-3.5 py-2.5 rounded-[20px]">
-          <div class="flex items-center gap-5">
-            <div class="flex items-center justify-center size-9 bg-[#292929] rounded-[12px]">
-              <DiscountIcon/>
+      <div class="flex gap-4">
+        <div class="flex-grow">
+          <div class="flex justify-between items-center bg-gray-dark px-3.5 py-2.5 rounded-[20px] mb-2.5">
+            <div class="flex items-center gap-5">
+              <div class="flex items-center justify-center size-9 bg-[#292929] rounded-[12px]">
+                <DiscountIcon/>
+              </div>
+              <span>Discounted items </span>
             </div>
-            <span>Discounted items </span>
+            <span class="text-sm text-primary font-semibold">2 days left</span>
           </div>
-          <span class="text-sm text-primary font-semibold">2 days left</span>
+          <div class="bg-gray-dark p-5 rounded-[20px]">
+            <Checkbox id="checkbox" value="checkbox" label="Select All" circle class="py-3 mb-3"/>
+            <ul>
+              <li v-for="item in 5" :key="item" class="border-b border-[#292929] py-2.5">
+                <BasketCard />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="max-w-[351px] w-full">
+          <div class="bg-gray-dark p-5 rounded-[20px] flex flex-col gap-7"> 
+            <ul class="flex flex-col gap-2 text-sm">
+              <li class="flex justify-between items-center opacity-60">
+                <span>Products, 3 pcs.</span>
+                <span>$100</span>
+              </li>
+              <li class="flex justify-between items-center opacity-60"> 
+                <span>Discount</span>
+                <span>-$30</span>
+              </li>
+              <li class="flex justify-between items-center text-lg font-semibold pt-1">
+                <span>Total cost </span>
+                <span>-$270</span>
+              </li>
+            </ul>
+            <Button color="primary" text-color="dark">Purchase</Button>
+          </div>
         </div>
       </div>
     </div>
@@ -25,7 +54,9 @@
 <script setup lang="ts">
 import DiscountIcon from '~/components/icons/DiscountIcon.vue';
 import BackIcon from '~/components/icons/BackIcon.vue';
-
+import Checkbox from '~/components/ui/Checkbox.vue';
+import BasketCard from '~/components/card/BasketCard.vue';
+import Button from '~/shared/ui/Button.vue';
 </script>
 
 <style scoped>
