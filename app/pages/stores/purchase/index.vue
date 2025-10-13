@@ -16,21 +16,7 @@
         </li>
       </ul>
     </div>
-    <div>
-      <p>Purchase</p>
-      <div>
-        <div>
-          <div>
-            <div><PurchaseIcon /></div>
-            <div>
-              <span>Total balance</span>
-              <span>$400 USD</span>
-            </div>
-          </div>
-          <div><DropdownIcon /></div>
-        </div>
-      </div>
-    </div>
+    <PurchaseCard />
     <div>
       <p>Promo code</p>
       <div>
@@ -44,10 +30,9 @@
 
 <script setup lang="ts">
 import BackIcon from '~/components/icons/BackIcon.vue';
-import PurchaseIcon from '~/components/icons/PurchaseIcon.vue';
-import DropdownIcon from '~/components/icons/DropdownIcon.vue';
 import Input from '~/shared/ui/Input.vue';
 import Button from '~/shared/ui/Button.vue';
+import PurchaseCard from '~/components/card/PurchaseCard.vue';
 </script>
 
 <style scoped>
